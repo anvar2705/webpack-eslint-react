@@ -39,6 +39,7 @@ const babelOptions = () => {
 const cssLoaders = (modules, extra) => {
   const loaders = [
     MiniCssExtractPlugin.loader,
+    { loader: 'css-modules-typescript-loader' },
     {
       loader: 'css-loader',
       options: modules

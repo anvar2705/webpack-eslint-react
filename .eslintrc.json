@@ -36,10 +36,6 @@
             "error",
             2
         ],
-        "linebreak-style": [
-            "error",
-            "unix"
-        ],
         "quotes": [
             "error",
             "single"
@@ -50,6 +46,8 @@
         ],
         "@typescript-eslint/ban-ts-comment": "off",
         "@typescript-eslint/ban-types": "off",
-        "import/no-unresolved": "off"
+        "import/no-unresolved": "off",
+        "react/display-name": "off",
+        "react/react-in-jsx-scope": "off"
     }
 }
