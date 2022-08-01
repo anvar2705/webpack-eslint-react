@@ -99,7 +99,7 @@ module.exports = {
     assetModuleFilename: 'assets/[hash][ext][query]',
   },
   resolve: {
-    extensions: ['.tsx', '.ts', '.jsx', '.js'],
+    extensions: ['.ts', '.tsx', '.js', '.jsx', '.css', '.scss'],
     alias: {
       components: path.resolve(__dirname, 'src/components'),
       assets: path.resolve(__dirname, 'src/assets'),

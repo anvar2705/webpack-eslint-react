@@ -11,6 +11,7 @@
         "plugin:import/errors",
         "plugin:import/warnings",
         "plugin:import/typescript",
+        "plugin:css-modules/recommended",
         "plugin:prettier/recommended"
     ],
     "parser": "@typescript-eslint/parser",
@@ -24,6 +25,7 @@
     "plugins": [
         "react",
         "@typescript-eslint",
+        "css-modules",
         "prettier"
     ],
     "settings": {
